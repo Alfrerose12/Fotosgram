@@ -1,0 +1,26 @@
+.logo {
+    height: 30px;
+  }
+  
+  .stories-container {
+    display: flex;
+    padding: 10px;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  
+  .feed {
+    margin-top: 10px;
+  }
+  
+  ion-footer {
+    background: white;
+    border-top: 1px solid #ddd;
+  }
+  
+  .nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  

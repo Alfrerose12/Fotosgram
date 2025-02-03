@@ -1,11 +1,26 @@
 <ion-card>
-  <img alt="Silhouette of mountains" src="https://ionicframework.com/docs/img/demos/card-media.png" />
   <ion-card-header>
-    <ion-card-title>Card Title</ion-card-title>
-    <ion-card-subtitle>Card Subtitle</ion-card-subtitle>
+    <ion-avatar>
+      <img src="assets/avatar.jpg" alt="User">
+    </ion-avatar>
+    <ion-label>
+      <h2>{{ post.user }}</h2>
+    </ion-label>
   </ion-card-header>
 
   <ion-card-content>
-    Here's a small text description for the card content. Nothing more, nothing less.
+    <img [src]="post.content" class="post-image">
   </ion-card-content>
+
+  <ion-buttons class="post-actions">
+    <ion-button>
+      <ion-icon name="heart-outline"></ion-icon>
+    </ion-button>
+    <ion-button>
+      <ion-icon name="chatbubble-outline"></ion-icon>
+    </ion-button>
+    <ion-button>
+      <ion-icon name="paper-plane-outline"></ion-icon>
+    </ion-button>
+  </ion-buttons>
 </ion-card>

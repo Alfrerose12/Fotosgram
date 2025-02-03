@@ -1,21 +1,53 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>feed</ion-title>
+    <ion-title>
+      <img src="assets/logo.png" alt="Logo" class="logo">
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon name="paper-plane-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
 
+  <!-- Historias con ion-slides -->
+  <ion-slides [options]="slideOpts" class="stories-container">
+    <ion-slide *ngFor="let story of stories">
+      <app-history [story]="story"></app-history>
+    </ion-slide>
+  </ion-slides>
+
+  <!-- Feed de publicaciones -->
   <app-layout>
     <ion-list>
-      <app-card-post></app-card-post>
-      <app-card-post></app-card-post>
-      <app-card-post></app-card-post>
-      <app-card-post></app-card-post>
-      <app-card-post></app-card-post>
-      <app-card-post></app-card-post>
-      <app-card-post></app-card-post>
+      <app-card-post *ngFor="let post of posts"></app-card-post>
     </ion-list>
   </app-layout>
 
 </ion-content>
+
+<!-- Barra de navegación inferior -->
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons class="nav-buttons">
+      <ion-button>
+        <ion-icon name="home-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="search-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="add-circle-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="heart-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon name="person-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>

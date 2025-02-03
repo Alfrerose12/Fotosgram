@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 import { LayoutComponent } from './layout/layout.component';
 import { IonicModule } from '@ionic/angular';
 import { CardPostComponent } from './card-post/card-post.component';
+import { HistoryComponent } from './history/history.component';
 
 
 
 @NgModule({
   declarations: [
     LayoutComponent,
-    CardPostComponent
+    CardPostComponent,
+    HistoryComponent
   ],
   imports: [
     CommonModule,
@@ -17,7 +19,8 @@ import { CardPostComponent } from './card-post/card-post.component';
   ],
   exports: [
     LayoutComponent,
-    CardPostComponent
+    CardPostComponent,
+    HistoryComponent
   ]
 })
 export class ComponentsModule { }
