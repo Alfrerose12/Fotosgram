@@ -1,26 +1,18 @@
-.logo {
-    height: 30px;
+.header-title {
+    display: flex;
+    justify-content: center;
   }
   
   .stories-container {
     display: flex;
-    padding: 10px;
-    overflow-x: auto;
-    white-space: nowrap;
+    justify-content: center;
+    padding: 10px 0;
   }
   
-  .feed {
-    margin-top: 10px;
-  }
-  
-  ion-footer {
-    background: white;
-    border-top: 1px solid #ddd;
-  }
-  
-  .nav-buttons {
+  .post-list {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     width: 100%;
+    max-height: calc(100vh - 150px); 
   }
   
