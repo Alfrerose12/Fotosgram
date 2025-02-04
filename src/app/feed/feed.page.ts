@@ -16,13 +16,13 @@ export class FeedPage {
     { id: 1, user: 'Carlos', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlF-8hJZWN0UkacWF_D4XKV_hmQl0DZJmXaQ&s' },
     { id: 2, user: 'Maria', image: 'https://b2472105.smushcdn.com/2472105/wp-content/uploads/2023/09/Poses-Perfil-Profesional-Mujeres-ago.-10-2023-1-819x1024.jpg?lossy=1&strip=1&webp=1' },
     { id: 3, user: 'Juan', image: 'https://labsaenzrenauld.com/wp-content/uploads/2020/10/Perfil-hombre-ba%CC%81sico_738242395.jpg' },
-    { id: 4, user: 'Pedro', image: 'https://i.pinimg.com/736x/38/3f/c1/383fc1f4c5b370c2071b13f5e1d31567.jpg' },
-    { id: 5, user: 'Laura', image: 'https://i.pinimg.com/originals/af/9a/83/af9a83b8de74c43a5d306611c5387422.jpg' },
-    { id: 6, user: 'Ana', image: 'https://media.istockphoto.com/id/1176965010/photo/portrait-of-smiling-woman-in-office.jpg' },
-    { id: 7, user: 'Roberto', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxGipTHm1jpG6AhTn7xKhXK7rgzPbR43yYzw&s' },
-    { id: 8, user: 'Sofia', image: 'https://i.pinimg.com/736x/35/82/74/3582749512ba0397b4c8edc5387c38eb.jpg' },
-    { id: 9, user: 'Luis', image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2yJAnpxEYZ9gIaLQPAyG56fIsnkB4vQ7ofg&s' },
-    { id: 10, user: 'Eva', image: 'https://media.istockphoto.com/id/1156284726/photo/portrait-of-a-woman.jpg' }
+    { id: 4, user: 'Pedro', image: 'https://media.istockphoto.com/id/1364917563/es/foto/hombre-de-negocios-sonriendo-con-los-brazos-cruzados-sobre-fondo-blanco.jpg?b=1&s=612x612&w=0&k=20&c=cgi7LB_rnvAdLeT3cW6uOK27LWXHg65cBkp7rewfde0=' },
+    { id: 5, user: 'Laura', image: 'https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=600' },
+    { id: 6, user: 'Ana', image: '' },
+    { id: 7, user: 'Roberto', image: 'https://media.istockphoto.com/id/1399565382/es/foto/joven-empresario-mestizo-feliz-de-pie-con-los-brazos-cruzados-trabajando-solo-en-una-oficina.jpg?b=1&s=612x612&w=0&k=20&c=ZVHkE4INrq7zupzkVLOG-RHa_FSSMVc-5cbRdxIXhLc=' },
+    { id: 8, user: 'Sofia', image: '' },
+    { id: 9, user: 'Luis', image: '' },
+    { id: 10, user: 'Eva', image: '' }
   ];
 
   posts = [
